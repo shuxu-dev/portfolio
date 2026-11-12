@@ -1,11 +1,7 @@
-# Shu Xu
+# Shu Xu, PhD
 
-I am a postdoctoral researcher at the University of Michigan Institute for Social Research. I use quantitative and computational methods to study social questions and build reproducible research workflows.
+Personal research website on aging, sensory health, and mobility.
 
-[Academic portfolio](https://shuxu-dev.github.io/shuxu-dev/) · [GitHub profile](https://github.com/shuxu-dev)
+[GitHub Pages](https://shuxu-dev.github.io/portfolio/) · [U-M researcher profile](https://src.isr.umich.edu/research/faculty-profiles/profiles/xushu/)
 
-## Site
-
-The five static pages share `styles.css`. Open `index.html` in a browser to preview the site locally. Relative links support both the GitHub Pages project URL and a custom domain.
-
-Add verified citations and links to `publications.html`, an approved CV PDF and download link to `cv.html`, and approved public contact details to `contact.html` when available.
+Open `index.html` locally to preview the five static pages. The pages share `styles.css`. Add an approved CV PDF and its download link to `cv.html` when available.
