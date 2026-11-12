@@ -1,30 +1,11 @@
-# Hi, I'm Shu Xu
+# Shu Xu
 
-I am a research fellow at the University of Michigan Institute for Social Research (ISR).
+I am a postdoctoral researcher at the University of Michigan Institute for Social Research. I use quantitative and computational methods to study social questions and build reproducible research workflows.
 
-My work sits at the intersection of research, data, and computation. I use quantitative methods and software tools to study complex social questions, build reproducible workflows, and turn data into evidence.
+[Academic portfolio](https://shuxu-dev.github.io/shuxu-dev/) · [GitHub profile](https://github.com/shuxu-dev)
 
-## About Me
+## Site
 
-- Postdoctoral researcher at the University of Michigan Institute for Social Research
-- Interested in data science, statistical modeling, computational social science, and applied research
-- Building tools and workflows for reproducible research
-- Developing a professional portfolio at [shuxu.dev](https://shuxu.dev)
+The five static pages share `styles.css`. Open `index.html` in a browser to preview the site locally. Relative links support both the GitHub Pages project URL and a custom domain.
 
-## Current Focus
-
-- Research computing and reproducible analysis
-- Data-driven social science research
-- Machine learning and statistical methods
-- Building a public portfolio of projects, writing, and research work
-
-## Selected Projects
-
-More projects coming soon.
-
-## Connect
-
-- Website: [shuxu.dev](https://shuxu.dev)
-- GitHub: [github.com/shuxu-dev](https://github.com/shuxu-dev)
-- LinkedIn: Add your LinkedIn URL here
-- Google Scholar: Add your Google Scholar URL here
+Add verified citations and links to `publications.html`, an approved CV PDF and download link to `cv.html`, and approved public contact details to `contact.html` when available.
