@@ -55,14 +55,9 @@ footer { grid-column: 2; border-top: 1px solid var(--rule); padding-top: 1rem; f
   display: block;
   width: min(5rem, 100%);
   height: auto;
-  margin-bottom: 1.4rem;
+  margin-bottom: .75rem;
 }
 
 @media (min-width: 44rem) {
-  .portrait {
-    float: right;
-    width: 6rem;
-    margin: 0 0 1rem 1.5rem;
-  }
-  main section { clear: both; }
+  .portrait { width: 6rem; }
 }
