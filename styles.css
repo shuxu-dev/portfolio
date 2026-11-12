@@ -50,3 +50,19 @@ footer { grid-column: 2; border-top: 1px solid var(--rule); padding-top: 1rem; f
   nav ul { display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
   footer { grid-column: auto; }
 }
+
+.portrait {
+  display: block;
+  width: min(12rem, 100%);
+  height: auto;
+  margin-bottom: 1.4rem;
+}
+
+@media (min-width: 44rem) {
+  .portrait {
+    float: right;
+    width: clamp(8rem, 17vw, 12rem);
+    margin: 0 0 1rem 1.5rem;
+  }
+  main section { clear: both; }
+}
