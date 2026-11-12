@@ -1,217 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shu Xu</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #222;
-      background: #ffffff;
-      line-height: 1.6;
-    }
-
-    header {
-      border-bottom: 1px solid #e5e5e5;
-      padding: 24px 8%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .site-title {
-      font-size: 24px;
-      font-weight: 600;
-      color: #111;
-      text-decoration: none;
-    }
-
-    nav a {
-      margin-left: 22px;
-      color: #333;
-      text-decoration: none;
-      font-size: 15px;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: 1050px;
-      margin: 0 auto;
-      padding: 56px 8%;
-    }
-
-    .hero {
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: 48px;
-      align-items: start;
-    }
-
-    .photo {
-      width: 280px;
-      height: 340px;
-      background: #e9ecef;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #777;
-      font-size: 15px;
-    }
-
-    h1 {
-      font-size: 36px;
-      margin: 0 0 8px;
-      font-weight: 600;
-    }
-
-    h2 {
-      font-size: 24px;
-      margin-top: 48px;
-      border-bottom: 1px solid #e5e5e5;
-      padding-bottom: 8px;
-      font-weight: 500;
-    }
-
-    .subtitle {
-      font-size: 18px;
-      color: #555;
-      margin-bottom: 28px;
-    }
-
-    .button-links a {
-      display: inline-block;
-      margin: 8px 10px 8px 0;
-      padding: 10px 14px;
-      border: 1px solid #333;
-      color: #222;
-      text-decoration: none;
-      font-size: 14px;
-    }
-
-    .button-links a:hover {
-      background: #222;
-      color: white;
-    }
-
-    .interests {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 16px;
-    }
-
-    .interests span {
-      border: 1px solid #ddd;
-      padding: 8px 12px;
-      background: #fafafa;
-      font-size: 14px;
-    }
-
-    footer {
-      border-top: 1px solid #e5e5e5;
-      padding: 28px 8%;
-      color: #666;
-      font-size: 14px;
-      text-align: center;
-    }
-
-    @media (max-width: 760px) {
-      header {
-        display: block;
-      }
-
-      nav {
-        margin-top: 14px;
-      }
-
-      nav a {
-        margin-left: 0;
-        margin-right: 14px;
-        display: inline-block;
-        margin-bottom: 8px;
-      }
-
-      .hero {
-        grid-template-columns: 1fr;
-      }
-
-      .photo {
-        width: 100%;
-        max-width: 280px;
-      }
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shu Xu studies aging, sensory health, and mobility at the University of Michigan.">
+  <title>About | Shu Xu, PhD</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <a class="site-title" href="index.html">Shu Xu</a>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="cv.html">CV</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="photo">Add your photo here</div>
-
-      <div>
-        <h1>Shu Xu</h1>
-        <div class="subtitle">
-          Postdoctoral Researcher<br />
-          University of Michigan Institute for Social Research
-        </div>
-
-        <p>
-          I am a postdoctoral researcher at the University of Michigan Institute for Social Research.
-          My work focuses on data-driven social science research, statistical modeling, computational
-          methods, and reproducible research workflows.
-        </p>
-
-        <div class="button-links">
-          <a href="cv.html">View CV</a>
-          <a href="publications.html">Publications</a>
-          <a href="research.html">Research</a>
-          <a href="contact.html">Contact</a>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Research Interests</h2>
-      <p>
-        My research interests include quantitative social science, data science,
-        statistical modeling, machine learning, and reproducible research.
-      </p>
-
-      <div class="interests">
-        <span>Computational Social Science</span>
-        <span>Data Science</span>
-        <span>Statistical Modeling</span>
-        <span>Machine Learning</span>
-        <span>Reproducible Research</span>
-        <span>Social Science Methodology</span>
-      </div>
-    </section>
-
-    <section>
-      <h2>News</h2>
-      <p>
-        Website under construction. More updates coming soon.
-      </p>
-    </section>
-  </main>
-
-  <footer>
-    © 2026 Shu Xu
-  </footer>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="layout">
+    <header>
+      <a class="name" href="index.html">Shu Xu, PhD</a>
+      <p class="subtitle">Aging, sensory health, and mobility</p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <h1>About me</h1>
+      <p class="intro">Hi, I’m Shu. I’m a gerontologist and Research Investigator at the University of Michigan’s Survey Research Center, part of the Institute for Social Research.</p>
+      <p>How does sensory loss change where older adults can go and what they can do? I study how vision and hearing loss relate to physical health, daily functioning, and well-being, and how people’s surroundings shape their mobility, independence, and social participation.</p>
+      <p class="links"><a href="https://src.isr.umich.edu/research/faculty-profiles/profiles/xushu/">U-M researcher profile</a> <a href="https://api.isr.umich.edu/wp-content/uploads/2024/06/Shu-Xu_CV_2026.10.pdf">CV (PDF)</a></p>
+      <section aria-labelledby="work">
+        <h2 id="work">Explore my research</h2>
+        <ul class="index">
+          <li><a href="research.html#driving">Driving and vision loss</a></li>
+          <li><a href="research.html#falls">Vision, home hazards, and falls</a></li>
+          <li><a href="research.html#cognition">Vision and cognitive aging</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer><a href="https://src.isr.umich.edu/research/faculty-profiles/profiles/xushu/">University of Michigan profile</a></footer>
+  </div>
 </body>
 </html>

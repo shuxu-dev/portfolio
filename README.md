@@ -1,30 +1,7 @@
-# Hi, I'm Shu Xu
+# Shu Xu, PhD
 
-I am a research fellow at the University of Michigan Institute for Social Research (ISR).
+Shu Xu is a gerontologist and Research Investigator at the University of Michigan’s Survey Research Center, Institute for Social Research. Her research focuses on sensory loss and healthy aging.
 
-My work sits at the intersection of research, data, and computation. I use quantitative methods and software tools to study complex social questions, build reproducible workflows, and turn data into evidence.
+[Personal website](https://shuxu-dev.github.io/portfolio/) · [U-M researcher profile](https://src.isr.umich.edu/research/faculty-profiles/profiles/xushu/) · [CV (PDF)](https://api.isr.umich.edu/wp-content/uploads/2024/06/Shu-Xu_CV_2026.10.pdf)
 
-## About Me
-
-- Postdoctoral researcher at the University of Michigan Institute for Social Research
-- Interested in data science, statistical modeling, computational social science, and applied research
-- Building tools and workflows for reproducible research
-- Developing a professional portfolio at [shuxu.dev](https://shuxu.dev)
-
-## Current Focus
-
-- Research computing and reproducible analysis
-- Data-driven social science research
-- Machine learning and statistical methods
-- Building a public portfolio of projects, writing, and research work
-
-## Selected Projects
-
-More projects coming soon.
-
-## Connect
-
-- Website: [shuxu.dev](https://shuxu.dev)
-- GitHub: [github.com/shuxu-dev](https://github.com/shuxu-dev)
-- LinkedIn: Add your LinkedIn URL here
-- Google Scholar: Add your Google Scholar URL here
+Open `index.html` locally to preview the five static pages. All pages share `styles.css`.

@@ -1,0 +1,52 @@
+:root {
+  color-scheme: light;
+  --ink: #242724;
+  --muted: #53564e;
+  --paper: #fcfaf5;
+  --rule: #c9c7ba;
+  --link: #245744;
+  --focus: #974522;
+  background: var(--paper);
+  color: var(--ink);
+  font: 1rem/1.65 system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: var(--link); text-underline-offset: .2em; }
+a:hover { text-decoration-thickness: .14em; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
+.skip { position: absolute; top: .75rem; left: 1rem; padding: .5rem .8rem; background: var(--paper); transform: translateY(-250%); }
+.skip:focus { transform: none; }
+.layout {
+  width: min(100% - 2.5rem, 66rem);
+  margin-inline: auto;
+  padding-block: clamp(2rem, 8vw, 6rem) 2rem;
+  display: grid;
+  grid-template-columns: minmax(12rem, 1fr) minmax(0, 2.45fr);
+  gap: 2.5rem clamp(2rem, 6vw, 5rem);
+  align-items: start;
+}
+.name, h1, h2 { font-family: Georgia, "Times New Roman", serif; line-height: 1.15; }
+.name { font-size: clamp(1.8rem, 4vw, 2.4rem); font-weight: bold; color: var(--ink); text-decoration: none; }
+.subtitle { color: var(--muted); margin: .6rem 0 1.25rem; }
+nav ul, .index, .publications { list-style: none; padding: 0; margin: 0; }
+nav a { display: inline-block; padding: .35rem 0; color: var(--ink); text-decoration: none; }
+nav a:hover, nav a[aria-current="page"] { text-decoration: underline; }
+nav a[aria-current="page"] { font-weight: 700; }
+main { max-width: 43rem; }
+h1 { font-size: clamp(2.25rem, 6vw, 4rem); margin: 0 0 1.3rem; }
+h2 { font-size: clamp(1.4rem, 4vw, 1.85rem); margin: 0 0 .65rem; }
+p { margin: 0 0 1.15rem; }
+.intro { font-size: 1.17rem; }
+.links { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; }
+section { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1.35rem; }
+.index a { display: inline-block; padding-block: .3rem; }
+.publications li { border-top: 1px solid var(--rule); padding-block: 1rem; }
+.publications li p { margin: .4rem 0 0; color: var(--muted); }
+footer { grid-column: 2; border-top: 1px solid var(--rule); padding-top: 1rem; font-size: .9rem; }
+@media (max-width: 43rem) {
+  .layout { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: .65rem; }
+  nav ul { display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
+  footer { grid-column: auto; }
+}
